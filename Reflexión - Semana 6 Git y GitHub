@@ -1,0 +1,29 @@
+Actividades 7 y 8 — Reflexión escrita
+Copia estas respuestas para tu evidencia:
+
+¿Por qué Git ayuda a reducir pérdida de trabajo?
+Porque registra cada cambio con un commit, lo que permite recuperar cualquier versión anterior del proyecto en cualquier momento.
+
+¿Por qué GitHub aporta al trabajo colaborativo?
+Porque permite que varios desarrolladores trabajen sobre el mismo repositorio, revisen cambios, y sincronicen su trabajo desde cualquier lugar.
+
+¿Qué ventaja tiene trabajar con ramas?
+Permite desarrollar nuevas funcionalidades o correcciones de forma aislada sin afectar el código principal, y solo integrarlas cuando estén listas.
+
+¿Cómo se relaciona Git con integración continua (CI/CD)?
+Git actúa como punto de partida del pipeline: cada push puede disparar automáticamente pruebas, construcción y despliegue del proyecto.
+
+¿Qué deuda técnica evita el control de versiones?
+Evita el caos de tener archivos como proyecto_final_v2_este_sí.zip, código sin historial, cambios sin autoría y la imposibilidad de revertir errores.
+
+¿Qué comandos usaste más?
+git add ., git commit -m, git status, git log --oneline, git switch, git push
+
+¿Diferencia entre trabajo local y remoto?
+Local es donde editas y haces commits en tu máquina. Remoto (GitHub) es donde se publica y comparte el proyecto con otros.
+
+¿Qué parte del flujo con ramas fue más clara o difícil?
+Lo más claro fue crear la rama con git switch -c. Lo más difícil fue entender que main no existe hasta hacer el primer commit.
+
+¿Qué valor tienen Git y GitHub para un proyecto DevOps?
+Son la base de cualquier pipeline DevOps: sin control de versiones no hay trazabilidad, colaboración ni automatización posible.
