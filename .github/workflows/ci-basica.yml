@@ -14,4 +14,3 @@ jobs:
 
       - name: Mostrar mensaje inicial
         run: echo "Primer workflow ejecutado"
-EOF
