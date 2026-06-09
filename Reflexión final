@@ -1,0 +1,14 @@
+1. ¿Qué es un workflow?
+Es un proceso automatizado definido en un archivo YAML dentro de .github/workflows. Se ejecuta cuando ocurre un evento como un push o manualmente.
+
+2. ¿Cuál es la diferencia entre job y step?
+Un job es un conjunto de pasos que se ejecutan en un mismo runner. Un step es un comando individual dentro de ese job. Un workflow puede tener varios jobs y cada job varios steps.
+
+3. ¿Para qué sirve un runner?
+Es la máquina virtual donde se ejecutan los jobs. En esta guía se usó ubuntu-latest, que es un servidor Linux proporcionado por GitHub de forma gratuita.
+
+4. ¿Qué ventaja tienen los artifacts?
+Permiten conservar archivos generados durante una ejecución, descargarlos como evidencia o compartirlos entre jobs dentro del mismo workflow.
+
+5. ¿Cómo GitHub Actions ayuda a disminuir errores manuales?
+Automatiza tareas repetitivas como validaciones, construcción de imágenes y generación de reportes. Cada vez que se hace push, el workflow verifica automáticamente que el proyecto esté correcto sin intervención humana.
